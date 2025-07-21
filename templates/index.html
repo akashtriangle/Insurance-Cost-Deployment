@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Input Form</title>
+</head>
+<body>
+    <h2>Enter Details for Insurance Cost Prediction</h2>
+    <div>
+    <form action="/predict" method="POST">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="sex">Sex (male/female):</label>
+        <input type="text" id="sex" name="sex"><br><br>
+
+        <label for="bmi">BMI (e.g., 27.5):</label>
+        <input type="text" id="bmi" name="bmi"><br><br>
+
+        <label for="children">Children (e.g., 0, 1, 2...):</label>
+        <input type="text" id="children" name="children"><br><br>
+
+        <label for="smoker">Smoker (yes/no):</label>
+        <input type="text" id="smoker" name="smoker"><br><br>
+
+        <label for="region">Region (southwest/southeast/northwest/northeast):</label>
+        <input type="text" id="region" name="region"><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+</body>
+</html>
